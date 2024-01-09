@@ -1,5 +1,5 @@
 //task 1
-let myName = 'Oksana';
+const myName = 'Oksana';
 let year = '27 y.o.';
 const familyStatus = 'single';
 let haveChildren = true;
@@ -14,15 +14,14 @@ console.log (typeof inf);
 
 //task 2
 const pi = Math.PI;
-let diameterSquared = 10**2;
+let diameter = 10;
 let height = 3;
-let volume = pi * diameterSquared * height / 4 + ' ' + "м.куб.";
-console.log (volume)
+let volume = pi * (diameter ** 2) * height / 4;
+console.log (volume + ' ' + "м.куб.");
 
 //task 3
-let c = 28;
-let c2 = c * 9 / 5;
-let f = 32 + c2;
+let c = 28* 9 / 5;;
+let f = 32 + c;
 console.log (f);
 
 //task 4
@@ -33,4 +32,10 @@ let e = 99 + 101; //200
 let g = "1" - "1"; //0
 let h = "Result: " + 10/2; //Result: 10/2
 let i = 3 + " bananas " + 2 + " apples "; // 3 bananas 2 apples
-console.log (a , b, d, e , g , h , i);
+console.log (a);
+console.log (b);
+console.log (d);
+console.log (e);
+console.log (g);
+console.log (h);
+console.log (i);
