@@ -14,8 +14,8 @@ console.log (typeof inf);
 
 //task 2
 const pi = Math.PI;
-let diameter = 10;
-let height = 3;
+let diameter = 3;
+let height = 10;
 let volume = pi * (diameter ** 2) * height / 4;
 console.log (volume + ' ' + "м.куб.");
 
