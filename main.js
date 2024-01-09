@@ -20,8 +20,7 @@ let volume = pi * (diameter ** 2) * height / 4;
 console.log (volume + ' ' + "м.куб.");
 
 //task 3
-let c = 28* 9 / 5;;
-let f = 32 + c;
+let f = 32 + (28 * 9 / 5);
 console.log (f);
 
 //task 4
