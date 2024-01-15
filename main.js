@@ -20,9 +20,9 @@ let volume = pi * (diameter ** 2) * height / 4;
 console.log (volume + ' ' + "м.куб.");
 
 //task 3
-let c = 28;
-let f = c * 9 / 5 + 32;
-console.log (f);
+let celsius = 28;
+let fahrenheit = celsius * 9 / 5 + 32;
+console.log (fahrenheit);
 
 //task 4
 let a = Infinity - "1"; //infinity
